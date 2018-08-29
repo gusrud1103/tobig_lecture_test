@@ -7,7 +7,7 @@ sum(is.na(data)) # 결측치 없음
 data$quality <- as.factor(data$quality) # 범주화 
 
 # 수정하였습니다._hyeonkyeong
-
+# 리얼 push해볼래
 #*********************************** 기초 통계량
 summary(data)
 for(i in 1:11){
