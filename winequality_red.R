@@ -6,7 +6,7 @@ head(data)
 sum(is.na(data)) # 결측치 없음 
 data$quality <- as.factor(data$quality) # 범주화 
 
-# 추가해보기
+# 수정하였습니다._hyeonkyeong
 
 #*********************************** 기초 통계량
 summary(data)
