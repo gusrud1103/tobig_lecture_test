@@ -8,7 +8,7 @@ data$quality <- as.factor(data$quality) # 범주화
 
 # 추가해볼래
 
-#*********************************** 기초 통계량
+#*********************************** 기초 통계량**
 summary(data)
 for(i in 1:11){
   print(round(sd(data[,i]),digits=2))
